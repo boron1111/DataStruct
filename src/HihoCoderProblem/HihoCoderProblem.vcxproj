@@ -1,0 +1,196 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{BAF8C4B2-3C93-47DB-A5C8-D5609401DDE1}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>HihoCoderProblem</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="AddDigits.cpp" />
+    <ClCompile Include="AddTwoNumbers.cpp" />
+    <ClCompile Include="A_Plus_B_Problem.cpp" />
+    <ClCompile Include="BinaryTreePath.cpp" />
+    <ClCompile Include="CoinChange.cpp" />
+    <ClCompile Include="ContainDuplicate.cpp" />
+    <ClCompile Include="CountAndSay.cpp" />
+    <ClCompile Include="CountPrimes.cpp" />
+    <ClCompile Include="DeleteNode.cpp" />
+    <ClCompile Include="DivideTwoIntegers.cpp" />
+    <ClCompile Include="EditDistance.cpp" />
+    <ClCompile Include="Fibonacci.cpp" />
+    <ClCompile Include="findDuplicate.cpp" />
+    <ClCompile Include="GameOfLife.cpp" />
+    <ClCompile Include="HappyNumber.cpp" />
+    <ClCompile Include="HihoCoderMain.cpp" />
+    <ClCompile Include="HuaWeiTestCountrySort.cpp" />
+    <ClCompile Include="HuwWeiTestCharReverse.cpp" />
+    <ClCompile Include="H_Index.cpp" />
+    <ClCompile Include="InequalityCount.cpp" />
+    <ClCompile Include="Integer2Words.cpp" />
+    <ClCompile Include="LargestNumber.cpp" />
+    <ClCompile Include="LongestSubString.cpp" />
+    <ClCompile Include="MajorityElement.cpp" />
+    <ClCompile Include="MazePath.cpp" />
+    <ClCompile Include="MedianFinder.cpp" />
+    <ClCompile Include="MedianOfTwoSortedArrays.cpp" />
+    <ClCompile Include="MergeKSortedLists.cpp" />
+    <ClCompile Include="MergeTwoSortedLists.cpp" />
+    <ClCompile Include="MissingNumber.cpp" />
+    <ClCompile Include="MoveZeros.cpp" />
+    <ClCompile Include="MySqrt.cpp" />
+    <ClCompile Include="NimGame.cpp" />
+    <ClCompile Include="nthUglyNumber.cpp" />
+    <ClCompile Include="NumberofDigit.cpp" />
+    <ClCompile Include="NumberOfIslands.cpp" />
+    <ClCompile Include="PerfectSquares.cpp" />
+    <ClCompile Include="PlusOne.cpp" />
+    <ClCompile Include="PowerofTwo.cpp" />
+    <ClCompile Include="PowOperation.cpp" />
+    <ClCompile Include="RemoveElement.cpp" />
+    <ClCompile Include="RemoveLinkListElementValue.cpp" />
+    <ClCompile Include="ReverseInteger.cpp" />
+    <ClCompile Include="ReverseLinklist.cpp" />
+    <ClCompile Include="Search2DMatrix.cpp" />
+    <ClCompile Include="SearchForRange.cpp" />
+    <ClCompile Include="SearchIndexNumber.cpp" />
+    <ClCompile Include="SingleNumber.cpp" />
+    <ClCompile Include="StackUseQueue.cpp" />
+    <ClCompile Include="StringReplace.cpp" />
+    <ClCompile Include="StringToInteger.cpp" />
+    <ClCompile Include="SwapPairs.cpp" />
+    <ClCompile Include="TestC_basci.cpp" />
+    <ClCompile Include="TestPointer.cpp" />
+    <ClCompile Include="TestVirtualClass.cpp" />
+    <ClCompile Include="TwoSum.cpp" />
+    <ClCompile Include="UglyNumber.cpp" />
+    <ClCompile Include="WordPattern.cpp" />
+    <ClCompile Include="ZigZagConversion.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AddDigits.h" />
+    <ClInclude Include="AddTwoNumbers.h" />
+    <ClInclude Include="BinaryTreePath.h" />
+    <ClInclude Include="CoinChange.h" />
+    <ClInclude Include="ContainDuplicate.h" />
+    <ClInclude Include="CountAndSay.h" />
+    <ClInclude Include="CountPrimes.h" />
+    <ClInclude Include="DataStructDefine.h" />
+    <ClInclude Include="DeleteNode.h" />
+    <ClInclude Include="DivideTwoIntegers.h" />
+    <ClInclude Include="EditDistance.h" />
+    <ClInclude Include="findDuplicate.h" />
+    <ClInclude Include="GameOfLife.h" />
+    <ClInclude Include="HappyNumber.h" />
+    <ClInclude Include="HuaWeiTestCountrySort.h" />
+    <ClInclude Include="HuwWeiTestCharReverse.h" />
+    <ClInclude Include="H_Index.h" />
+    <ClInclude Include="Integer2Words.h" />
+    <ClInclude Include="LargestNumber.h" />
+    <ClInclude Include="LongestSubString.h" />
+    <ClInclude Include="MajorityElement.h" />
+    <ClInclude Include="MedianFinder.h" />
+    <ClInclude Include="MedianOfTwoSortedArrays.h" />
+    <ClInclude Include="MergeKSortedLists.h" />
+    <ClInclude Include="MergeTwoSortedLists.h" />
+    <ClInclude Include="MissingNumber.h" />
+    <ClInclude Include="MoveZeros.h" />
+    <ClInclude Include="MySqrt.h" />
+    <ClInclude Include="NimGame.h" />
+    <ClInclude Include="nthUglyNumber.h" />
+    <ClInclude Include="NumberofDigit.h" />
+    <ClInclude Include="NumberOfIslands.h" />
+    <ClInclude Include="PerfectSquares.h" />
+    <ClInclude Include="PlusOne.h" />
+    <ClInclude Include="PowerofTwo.h" />
+    <ClInclude Include="PowOperation.h" />
+    <ClInclude Include="RemoveElement.h" />
+    <ClInclude Include="RemoveLinkListElementValue.h" />
+    <ClInclude Include="ReverseInteger.h" />
+    <ClInclude Include="ReverseLinklist.h" />
+    <ClInclude Include="Search2DMatrix.h" />
+    <ClInclude Include="SearchForRange.h" />
+    <ClInclude Include="SearchIndexNumber.h" />
+    <ClInclude Include="SingleNumber.h" />
+    <ClInclude Include="StackUseQueue.h" />
+    <ClInclude Include="StringToInteger.h" />
+    <ClInclude Include="SwapPairs.h" />
+    <ClInclude Include="TestC_basci.h" />
+    <ClInclude Include="TestPointer.h" />
+    <ClInclude Include="TestVirtualClass.h" />
+    <ClInclude Include="TwoSum.h" />
+    <ClInclude Include="UglyNumber.h" />
+    <ClInclude Include="WordPattern.h" />
+    <ClInclude Include="ZigZagConversion.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
